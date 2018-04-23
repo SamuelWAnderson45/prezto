@@ -11,3 +11,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+# May need to add keys to list manually
+eval $(keychain --eval --confhost ~/.ssh/config --noask --quiet)
+source ~/.aliases
