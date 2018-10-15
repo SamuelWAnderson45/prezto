@@ -17,7 +17,7 @@ fi
 # Terminal
 #
 
-export TERMINAL='konsole'
+export TERMINAL='xfce4-terminal'
 
 #
 # Editors
@@ -52,6 +52,7 @@ path=(
   /usr/local/{bin,sbin}
   $path
   ~/.bin
+  ~/.cargo/bin
 )
 
 #
